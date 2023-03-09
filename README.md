@@ -13,6 +13,9 @@ In the field of human pose estimation, regression-based methods have been domina
 ![image](https://github.com/yshMars/DistilPose/blob/main/images/framework.png)
 
 Our contributions are summarized as follows:
+- We propose a novel human pose estimation framework, ***DistilPose***, which is *the first work to transfer knowledge between heatmap-based and regression-based models losslessly*.
+- We introduce a novel **Token-distilling Encoder (TDE)** to take advantage of both heatmap-based and regression-based models. With the proposed TDE, the gap between the output space of heatmaps and coordinate vectors can be facilitated in a tokenized manner.
+- We propose **Simulated Heatmaps** to model explicit heatmap information, including 2D keypoint distributions and keypoint confidences. With the aid of Simulated Heatmaps, we can transform the regression-based HPE task into a more straightforward learning task that fully exploits local information. Simulated Heatmaps can be applied to any heatmap-based and regression-based models for transferring heatmap knowledge to regression models.
 
 # Code
 ***Code will be published ASAP.***
