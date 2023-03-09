@@ -10,7 +10,7 @@ Implementation for: DistilPose:  Tokenized Pose Regression with Heatmap Distilla
 # Introdoction
 In the field of human pose estimation, regression-based methods have been dominated in terms of speed, while heatmap-based methods are far ahead in terms of performance. How to take advantage of both schemes remains a challenging problem. In this paper, we propose a novel human pose estimation framework termed ***DistilPose***, which *bridges the gaps between heatmap-based and regression-based methods*. 
 
-![image](https://raw.githubusercontent.com/yshMars/DistilPose/main/images/framework.png?token=GHSAT0AAAAAAB7NHDB3JKDOYSOXAQWATESKZAJSPVQ)
+![image](https://github.com/yshMars/DistilPose/blob/main/images/framework.png)
 
 Our contributions are summarized as follows:
 
